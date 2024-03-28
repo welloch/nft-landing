@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:wght@400;500;600&display=swap");
+
+@import "/css/typography.css";
+@import "/css/colors.css";
+@import "/css/inputs.css";
+@import "/css/components/carousel.css";
+@import "/css/components/discover.css";
+@import "/css/components/viewers.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(#0f0f0f1f);
+  color: var(--black-color);
+  overflow-x: hidden;
+}
+
+.m-auto {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.header,
+.header nav,
+.header__search,
+.header__navigation {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+.header {
+  gap: 117px;
+  margin-top: 45px;
+}
+
+.header nav {
+  gap: 57px;
+}
+
+.header__navigation {
+  gap: 54px;
+}
+
+.header__navigation a {
+  text-decoration: none;
+  color: var(--gray-color-500);
+}
+
+.header__search {
+  gap: 30px;
+  width: 100%;
+}
+
+.dark {
+  color: var(--black-color);
+}
+
+.top-collections {
+  margin-top: 230px;
+}

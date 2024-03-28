@@ -1,0 +1,64 @@
+h1 {
+  font-size: 75px;
+  font-weight: 600;
+  line-height: 90px;
+  letter-spacing: -3px;
+  text-align: left;
+}
+
+h2 {
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 26.92px;
+  text-align: left;
+}
+
+h3 {
+  font-size: 36.77px;
+  font-weight: 600;
+  line-height: 45.96px;
+}
+
+h6 {
+  font-size: 21.17px;
+  font-weight: 600;
+  line-height: 29.64px;
+  text-align: left;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: var(--gray-color-400);
+}
+
+.p-middle {
+  font-size: 15.36px;
+  font-weight: 500;
+  line-height: 21.51px;
+  text-align: left;
+}
+
+.p-small {
+  font-size: 12.26px;
+  font-weight: 500;
+  line-height: 18.39px;
+  color: var(--gray-color-400);
+}
+
+.p-bid {
+  font-size: 14.12px;
+  font-weight: 400;
+  line-height: 21.17px;
+  letter-spacing: 0.14px;
+  text-align: left;
+}
+
+.text-green {
+  color: var(--green-color);
+}
+
+.text-red {
+  color: var(--red-color);
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Sun-Glass",
+    "description": "Current bid",
+    "price": 1.75,
+    "imgSrc": "/assets/carousel-img/item-1.jpeg",
+    "time": "07h 09m 12s"
+  },
+  {
+    "title": "Sun-Glass",
+    "description": "Current bid",
+    "price": 1.75,
+    "imgSrc": "/assets/carousel-img/item-2.jpeg",
+    "time": "07h 09m 12s"
+  },
+  {
+    "title": "Sun-Glass",
+    "description": "Current bid",
+    "price": 1.75,
+    "imgSrc": "/assets/carousel-img/item-3.jpeg",
+    "time": "07h 09m 12s"
+  },
+  {
+    "title": "Sun-Glass",
+    "description": "Current bid",
+    "price": 1.75,
+    "imgSrc": "/assets/carousel-img/item-4.jpeg",
+    "time": "07h 09m 12s"
+  },
+  {
+    "title": "Sun-Glass",
+    "description": "Current bid",
+    "price": 1.75,
+    "imgSrc": "/assets/carousel-img/item-5.jpeg",
+    "time": "07h 09m 12s"
+  }
+]

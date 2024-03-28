@@ -1,0 +1,18 @@
+[
+  {
+    "avatar": "/assets/carousel-img/item-1.jpeg",
+    "nftCount": 1,
+    "fio": "Alex Ca.",
+    "nick": "Alexy",
+    "wallets": "8,456",
+    "percent": "+23,00"
+  },
+  {
+    "avatar": "/assets/carousel-img/item-5.jpeg",
+    "nftCount": 2,
+    "fio": "Juliya S.",
+    "nick": "JuliyaS",
+    "wallets": "5,327",
+    "percent": "-32,01"
+  }
+]

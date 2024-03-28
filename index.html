@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+    <title>NFT landing</title>
+
+    <link type="text/css" rel="stylesheet" href="/css/index.css" />
+
+    <script type="module" defer src="/js/index.js"></script>
+  </head>
+  <body>
+    <header class="header m-auto">
+      <nav>
+        <div class="header__logo">
+          <img src="assets/logo.svg" alt="logo" />
+        </div>
+        <div class="header__navigation">
+          <a href="">DISCOVER</a>
+          <a href="">CREATORS</a>
+          <a href="">SELL</a>
+          <a href="">STATS</a>
+        </div>
+      </nav>
+      <div class="header__search">
+        <div class="search-input">
+          <img src="/assets/search-icon.svg" alt="search logo" />
+          <input type="text" placeholder="Search Art Work / Creator" />
+        </div>
+        <button class="button button-dark">CONNECT WALLET</button>
+      </div>
+    </header>
+
+    <main>
+      <div class="discover m-auto">
+        <article class="discover__article">
+          <section class="discover__section-1">
+            <h1>Discover And Create NFTs</h1>
+            <p>
+              Discover, Create and Sell NFTs On Our NFT Marketplace With Over
+              Thousands Of NFTs And Get a <span class="dark">$20 bonus</span>.
+            </p>
+            <div class="discover-section__buttons">
+              <button class="button button-dark">EXPLORE MORE</button>
+              <button class="button button-light">CREATE NFT</button>
+            </div>
+          </section>
+          <section class="discover__section-2">
+            <div>
+              <h3>430K+</h3>
+              <p class="p-small">Art Works</p>
+            </div>
+            <div>
+              <h3>159K+</h3>
+              <p class="p-small">Creators</p>
+            </div>
+            <div>
+              <h3>430K+</h3>
+              <p class="p-small">Art Works</p>
+            </div>
+          </section>
+        </article>
+        <div class="discover-illustration">
+          <div class="discover-illustration__images">
+            <div class="discover-illustration-images__item-1">
+              <img alt="nft illustration 1" />
+            </div>
+            <div class="discover-illustration-images__item-2">
+              <img alt="nft illustration 2" />
+            </div>
+            <div class="discover-illustration-images__item-3">
+              <img src="/assets/arrow-illustration.png" alt="arrow" />
+            </div>
+            <div class="discover-illustration-images__item-4">
+              <img src="/assets/dots-illustration.png" alt="dots" />
+            </div>
+            <div class="discover-illustration-images__item-5">
+              <div class="slider">
+                <button class="slider-arrow" onclick="swiperPrev()">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="17"
+                    height="10"
+                    viewBox="0 0 17 10"
+                    fill="none"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M10.7602 0.389877C11.1976 -0.0139196 11.8796 0.0133547 12.2834 0.450795L15.7659 4.22348C16.1471 4.63639 16.1471 5.27283 15.7659 5.68575L12.2834 9.45852C11.8796 9.89596 11.1977 9.92324 10.7602 9.51945C10.3228 9.11566 10.2955 8.4337 10.6993 7.99626L12.5119 6.03254L2.0388 6.03254C1.44348 6.03254 0.960876 5.54994 0.960876 4.95462C0.960876 4.3593 1.44348 3.8767 2.0388 3.8767L12.5119 3.8767L10.6993 1.91307C10.2955 1.47563 10.3228 0.793673 10.7602 0.389877Z"
+                      fill="#23262F"
+                    />
+                  </svg>
+                </button>
+                <button class="slider-arrow" onclick="swiperNext()">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="17"
+                    height="10"
+                    viewBox="0 0 17 10"
+                    fill="none"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M10.7602 0.389877C11.1976 -0.0139196 11.8796 0.0133547 12.2834 0.450795L15.7659 4.22348C16.1471 4.63639 16.1471 5.27283 15.7659 5.68575L12.2834 9.45852C11.8796 9.89596 11.1977 9.92324 10.7602 9.51945C10.3228 9.11566 10.2955 8.4337 10.6993 7.99626L12.5119 6.03254L2.0388 6.03254C1.44348 6.03254 0.960876 5.54994 0.960876 4.95462C0.960876 4.3593 1.44348 3.8767 2.0388 3.8767L12.5119 3.8767L10.6993 1.91307C10.2955 1.47563 10.3228 0.793673 10.7602 0.389877Z"
+                      fill="#23262F"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="weekly-top">
+        <h2>WEEKLY TOP NFT</h2>
+        <div class="carousel">
+          <article class="carousel__slider"></article>
+        </div>
+        <div class="slider">
+          <button class="slider-arrow" onclick="carouselPrev()">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="17"
+              height="10"
+              viewBox="0 0 17 10"
+              fill="none"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M10.7602 0.389877C11.1976 -0.0139196 11.8796 0.0133547 12.2834 0.450795L15.7659 4.22348C16.1471 4.63639 16.1471 5.27283 15.7659 5.68575L12.2834 9.45852C11.8796 9.89596 11.1977 9.92324 10.7602 9.51945C10.3228 9.11566 10.2955 8.4337 10.6993 7.99626L12.5119 6.03254L2.0388 6.03254C1.44348 6.03254 0.960876 5.54994 0.960876 4.95462C0.960876 4.3593 1.44348 3.8767 2.0388 3.8767L12.5119 3.8767L10.6993 1.91307C10.2955 1.47563 10.3228 0.793673 10.7602 0.389877Z"
+                fill="#23262F"
+              />
+            </svg>
+          </button>
+          <button class="slider-arrow" onclick="carouselNext()">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="17"
+              height="10"
+              viewBox="0 0 17 10"
+              fill="none"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M10.7602 0.389877C11.1976 -0.0139196 11.8796 0.0133547 12.2834 0.450795L15.7659 4.22348C16.1471 4.63639 16.1471 5.27283 15.7659 5.68575L12.2834 9.45852C11.8796 9.89596 11.1977 9.92324 10.7602 9.51945C10.3228 9.11566 10.2955 8.4337 10.6993 7.99626L12.5119 6.03254L2.0388 6.03254C1.44348 6.03254 0.960876 5.54994 0.960876 4.95462C0.960876 4.3593 1.44348 3.8767 2.0388 3.8767L12.5119 3.8767L10.6993 1.91307C10.2955 1.47563 10.3228 0.793673 10.7602 0.389877Z"
+                fill="#23262F"
+              />
+            </svg>
+          </button>
+        </div>
+        <article class="weekly-top__viewers">
+          <div class="viewers__header">
+            <h6>Recent Viewed</h6>
+            <button class="button button-outlined">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="11"
+                viewBox="0 0 24 11"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_0_1023)">
+                  <path
+                    d="M11 5.61542C11 5.86163 11.4477 6.06122 12 6.06122C12.5523 6.06122 13 5.86163 13 5.61542C13 5.36921 12.5523 5.16962 12 5.16962C11.4477 5.16962 11 5.36921 11 5.61542Z"
+                    stroke="#CBD5E0"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M4 5.61542C4 5.86163 4.44772 6.06122 5 6.06122C5.55228 6.06122 6 5.86163 6 5.61542C6 5.36921 5.55228 5.16962 5 5.16962C4.44772 5.16962 4 5.36921 4 5.61542Z"
+                    stroke="#CBD5E0"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M18 5.61542C18 5.86163 18.4477 6.06122 19 6.06122C19.5523 6.06122 20 5.86163 20 5.61542C20 5.36921 19.5523 5.16962 19 5.16962C18.4477 5.16962 18 5.36921 18 5.61542Z"
+                    stroke="#CBD5E0"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_0_1023">
+                    <rect
+                      width="10.6993"
+                      height="24"
+                      fill="white"
+                      transform="translate(24 0.265747) rotate(90)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+            </button>
+          </div>
+          <section class="viewers__content"></section>
+        </article>
+      </div>
+      <div class="top-collections"></div>
+    </main>
+  </body>
+</html>

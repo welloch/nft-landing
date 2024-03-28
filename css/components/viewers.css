@@ -1,0 +1,151 @@
+.weekly-top {
+  background-color: var(--gray-color-200);
+  width: 100%;
+  margin-top: 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  justify-content: center;
+  position: relative;
+  padding: 70px 0px;
+}
+
+.weekly-top h2 {
+  color: var(--gray-color-300);
+  text-align: center;
+}
+
+.nft-card {
+  background-color: var(--white-color);
+  border-radius: 30px;
+  box-shadow: 38.81658935546875px 11.762604713439941px 58.81301498413086px 0px
+    #c7c7c799;
+  padding: 14px;
+}
+
+.nft-card__img {
+  border-radius: 30px;
+  position: relative;
+}
+
+.nft-card__img img {
+  border-radius: 30px;
+  width: 252px;
+  height: 252px;
+  object-fit: cover;
+}
+
+.nft-card__time-pin {
+  background-color: rgba(28, 29, 32, 0.35);
+  position: absolute;
+  top: 14px;
+  right: 9px;
+  padding: 8px 14px;
+  border-radius: 15px;
+}
+
+.nft-card__time-pin p {
+  color: var(--white-color);
+}
+
+.nft-card__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nft-card__price {
+  display: flex;
+  gap: 1px;
+  align-items: center;
+}
+
+.nft-card__price p {
+  color: var(--black-color);
+}
+
+.weekly-top__viewers {
+  background-color: var(--white-color);
+  border-radius: 15px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  width: 365px;
+  gap: 27px;
+  position: absolute;
+  bottom: -120px;
+  right: 3%;
+  box-shadow: 10px 10px 50px 0px #1414161a;
+}
+
+.viewers__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.viewers__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.viewers__content_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.viewers-item__avatar {
+  position: relative;
+}
+
+.viewers-item__avatar img {
+  width: 46px;
+  height: 46px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.viewers-avatar__pin {
+  display: flex;
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  align-items: center;
+  justify-content: center;
+  bottom: 5px;
+  right: -5px;
+  background-color: var(--white-color);
+  border-radius: 100%;
+}
+
+.viewers-avatar__pin p {
+  font-size: 11.52px;
+  color: var(--black-color);
+  font-weight: 700;
+  line-height: 17.28px;
+  letter-spacing: 0.1px;
+  text-align: center;
+}
+
+.viewers-item__info {
+  display: flex;
+  gap: 15px;
+}
+
+.viewers-item__contact {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.viewers-item__contact .p-middle {
+  color: var(--black-color);
+}
+
+.viewers-item__wallets {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 5px;
+}
